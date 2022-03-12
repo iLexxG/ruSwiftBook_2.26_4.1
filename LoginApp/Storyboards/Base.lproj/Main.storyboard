@@ -286,8 +286,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQg-vL-x4D">
-                                <rect key="frame" x="60" y="375" width="254" height="33"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQg-vL-x4D">
+                                <rect key="frame" x="16" y="375" width="343" height="223"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -297,14 +297,15 @@
                         <viewLayoutGuide key="safeArea" id="5es-Zo-TbO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PQg-vL-x4D" firstAttribute="leading" secondItem="5es-Zo-TbO" secondAttribute="leading" constant="60" id="1a5-2t-gfA"/>
                             <constraint firstItem="5es-Zo-TbO" firstAttribute="trailing" secondItem="08d-U8-LnD" secondAttribute="trailing" constant="16" id="62O-km-gkY"/>
                             <constraint firstItem="08d-U8-LnD" firstAttribute="leading" secondItem="5es-Zo-TbO" secondAttribute="leading" constant="16" id="Adz-gK-N8j"/>
-                            <constraint firstItem="5es-Zo-TbO" firstAttribute="trailing" secondItem="PQg-vL-x4D" secondAttribute="trailing" constant="61" id="cES-rL-zM0"/>
+                            <constraint firstItem="PQg-vL-x4D" firstAttribute="leading" secondItem="5es-Zo-TbO" secondAttribute="leading" constant="16" id="Cpz-KA-6wC"/>
+                            <constraint firstItem="5es-Zo-TbO" firstAttribute="bottom" secondItem="PQg-vL-x4D" secondAttribute="bottom" constant="20" id="TEW-Ee-Cre"/>
+                            <constraint firstItem="PQg-vL-x4D" firstAttribute="top" secondItem="Hq0-pL-5On" secondAttribute="bottom" constant="10" id="VGm-H0-XrI"/>
                             <constraint firstItem="08d-U8-LnD" firstAttribute="top" secondItem="5es-Zo-TbO" secondAttribute="top" constant="20" id="fJY-gw-0X4"/>
                             <constraint firstItem="Hq0-pL-5On" firstAttribute="centerX" secondItem="5es-Zo-TbO" secondAttribute="centerX" id="iRn-zZ-Hmz"/>
+                            <constraint firstItem="5es-Zo-TbO" firstAttribute="trailing" secondItem="PQg-vL-x4D" secondAttribute="trailing" constant="16" id="kag-E1-duY"/>
                             <constraint firstItem="Hq0-pL-5On" firstAttribute="top" secondItem="08d-U8-LnD" secondAttribute="bottom" constant="25" id="n4D-zN-N0v"/>
-                            <constraint firstItem="PQg-vL-x4D" firstAttribute="top" secondItem="Hq0-pL-5On" secondAttribute="bottom" constant="10" id="wza-9W-rur"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZUN-p9-qcS">
